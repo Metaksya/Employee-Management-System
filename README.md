@@ -11,7 +11,6 @@ Purpose: These lines include essential standard C libraries for input/output ope
 
 
 Employee Structure Definition:
-
 Purpose: Defines the structure Employee encapsulating employee details.
 
 
@@ -20,15 +19,15 @@ Purpose: Defines the structure Employee encapsulating employee details.
 Functions:
 
 findSuitableEmployee:
-Purpose: Locates an employee suitable for a given department and work complexity. Algorithm:
-Iterates through the employee array to find a match based on the department and complexity criteria.
+Purpose: Locates an employee suitable for a given department and work complexity.
+
+Algorithm:Iterates through the employee array to find a match based on the department and complexity criteria.
 Employs nested if-else conditions to match the complexity ranges with years of experience required.
 
 
 assignWork:
 
 Purpose: Assigns a task to an employee based on task description and complexity. 
-
 Algorithm:
 Analyzes the task description to determine the appropriate department.
 Calls findSuitableEmployee to assign the task to a suitable employee based on department and complexity.
@@ -37,9 +36,7 @@ Calls findSuitableEmployee to assign the task to a suitable employee based on de
 findEmployeeByName:
 
 Purpose: Searches for an employee by name and surname.  
-
 Algorithm:
-
 Compares inputted name and surname with the stored employee data using case-insensitive comparison (strcasecmp).
 Returns the index of the found employee or -1 if not found.
 
@@ -49,7 +46,6 @@ displayEmployeeData:
 Purpose: Displays detailed information about an employee. 
 
 Algorithm:
-
 Prompts for the name and surname of the employee to be displayed.
 Calls findEmployeeByName to retrieve the employee's data and displays it if found.
 
